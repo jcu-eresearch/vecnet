@@ -42,6 +42,13 @@ GIT
       builder (>= 2.1.2)
 
 GIT
+  remote: git://github.com/justinweiss/request_profiler.git
+  revision: 9a0037450303d40b2545b3dac07f616b77f0f481
+  specs:
+    request_profiler (0.0.2)
+      ruby-prof
+
+GIT
   remote: git://github.com/ndlib/common_repository_model
   revision: b6a648a6ce6ff4b06d4106f09fd5f2d4a46752e7
   specs:
@@ -462,6 +469,7 @@ GEM
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
+    ruby-prof (0.13.0)
     ruby-progressbar (1.0.2)
     ruby_gntp (0.3.4)
     rubydora (1.6.4)
@@ -582,6 +590,7 @@ DEPENDENCIES
   rails (= 3.2.11)
   rails_best_practices
   rake
+  request_profiler!
   resque-pool
   roboto
   rsolr!
