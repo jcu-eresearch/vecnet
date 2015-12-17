@@ -13,8 +13,6 @@ The search interface wasn't spatial, had some usability issues and needed some d
 
 [ screenshot of old dl homepage]
 
-A big friendly map could easily show where papers are from.  A scientist could easily search for papers only from one country or region using a map.
-
 
 ## Oh AirBnB
 
@@ -26,6 +24,7 @@ Surprisingly the original VecNET search bore a striking resemeblance to the old 
 
 We could learn from their experience and benefit from design work done by a talented team and company.  Our final proposal was iteratively formed by getting feedback from VecNET librarians on designs based around three main principles derived from AirBnB. 
 We wanted search to be as simple as possible and have a natural flow from the top of the page downwards. We wanted a big friendly map that encouraged interaction and discovery of spatial data within.
+A well designed map could easily display information about where papers were from.  Any user or scientist could easily search for papers from a particular country or region using a map instead of time consuming filters.
 
 [ vecnet proposal slide ]
 
