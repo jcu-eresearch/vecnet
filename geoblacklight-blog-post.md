@@ -1,4 +1,4 @@
-# Redesigning Vecnet Digital Library Search using GeoBlacklight
+# VecNET Digital Library Search using GeoBlacklight
 
 
 We got on the GeoBlacklight bus when we joined with VecNET project.  VecNET was a Gates Foundation project to simulate, model to learn about malaria transmission and interventions.  Important and cool stuff!
