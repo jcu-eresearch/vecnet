@@ -15,7 +15,7 @@ The search interface wasn't spatial, had some usability issues and needed some d
 ![screenshot of old DL homepage]
 (https://github.com/jcu-eresearch/vecnet/blob/blog-post/doc/dl-old.png)
 
-## Oh AirBnB
+## Oh Airbnb
 
 Surprisingly the original VecNET search bore a striking resemeblance to the old AirBnB search.  They had recently done a resign to fix design and usability issues!  
 
@@ -36,12 +36,12 @@ A well designed map could easily display information about where papers were fro
 
 However the stack at VecNET was inherited from a prototype Ruby on Rails app with an old Solr and Fedora backend.  For a spatial search we would need to integrate spatial values of records with the existing dataset.  On the front end we wanted to use Leaflet and GeoJSON and uses Rail's API ability to serve  a modern Javascript powered frontend with the slick UI goodness that users enjoy.
 
-Just as the coffeescript and Backbone.js structure was being laid down, we noticed a fantastic project starting up with strong ideas about user friendly geospatial discovery.  
+Just as the coffeescript and Backbone.js structure was being laid down, we noticed a fantastic project starting up with strong progress and ideas about user friendly geospatial discovery.  
 
 ![ geoblacklight.org screenshot ]
 (https://github.com/jcu-eresearch/vecnet/blob/blog-post/doc/geoblacklight.png)
 
-GeoBlacklight!  GeoBlacklight builds on and extends the Blacklight project, itself a project for making discovery portals and digital libraries. Blacklight was a core part of the VecNET digital library's founding system.
+GeoBlacklight!  GeoBlacklight builds on and extends the Blacklight project, a project for making discovery portals and digital libraries. Blacklight was a core part of the VecNET digital library's founding system.
 Normally you don't get excited about Rails apps at version 0.4 but with institutions like Stanford, MIT and Princeton contributing to an active development community that encouraged new users - it was obvious.  
 
 ## Customising GeoBlacklight
@@ -57,3 +57,18 @@ Our customisations were primarily adding the new design work to the existing Geo
 * Progressive enhancement with fallback rendered HTML for SEO
 * Retaining project branding and color schemes
 
+## Javascript, microschema CSS variables oh my
+
+// Dan if you want to write some here
+
+  * single page + ajax
+  * microschema?
+  * points and bounding boxes
+
+
+## Results
+
+![current DL screenshot]
+(https://github.com/jcu-eresearch/vecnet/blob/blog-post/doc/dl-new-map.png)
+
+We got a modern codebase and design that encourages the discovery of spatial data and uses a platform that is easily extended for more data types, metadata, or spacial presentation features.  Any future development can easily modify the loosely coupled view layer, the map layer, and the metadata microschema without touching Solr or backend code.  GeoBlacklight's architecture and hard work on the geospatial discovery made it possible without writing from scratch.
